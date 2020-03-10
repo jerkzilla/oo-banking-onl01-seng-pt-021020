@@ -28,6 +28,6 @@ class Transfer
     #   if @status == "complete"
     #     @sender.deposit ( @amount )
     # end
-    
+
 
 end
