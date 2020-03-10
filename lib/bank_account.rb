@@ -1,9 +1,9 @@
 class BankAccount
   attr_accessor :name, :balance
 
-  def initialize(name)
+  def initialize(name, balance)
     @name = name
-    balance = 100
+    balance = 1000
   end
 
 end
