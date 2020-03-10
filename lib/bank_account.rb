@@ -19,5 +19,5 @@ class BankAccount
   def valid?
     while @status = "open" && @balance > 0
   end
-  
+
 end
