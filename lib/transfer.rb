@@ -19,9 +19,9 @@ class Transfer
         puts "Transaction rejected. Please check your account balance."
       elsif @status = "complete"
         puts "Transaction executed."
-      else 
+      else
         @sender.deposit( @amount * -1)
-        @receiver.deposit( @amount )
+        @receiver.deposit( @amount * -1 )
         @status = "complete"
       end
     end
