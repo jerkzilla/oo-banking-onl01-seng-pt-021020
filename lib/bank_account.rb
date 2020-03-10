@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(num)
-    :balance + num
+    @balance + 1000
   end
 
 end
