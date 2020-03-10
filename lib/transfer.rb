@@ -24,9 +24,10 @@ class Transfer
       end
     end
 
-    def reverse_transfer
-      if @status == "complete"
-        @sender.deposit ( @amount )
-
+    # def reverse_transfer
+    #   if @status == "complete"
+    #     @sender.deposit ( @amount )
+    # end
+    
 
 end
